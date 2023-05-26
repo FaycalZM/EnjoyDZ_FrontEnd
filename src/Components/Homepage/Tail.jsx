@@ -1,8 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fontawesome/free-brands-svg-icons';
 
-import '@fontawesome/fontawesome-svg-core/styles.css';
 
 function PageTail() {
   return (
@@ -12,11 +9,6 @@ function PageTail() {
       </div>
       <div className="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui id dolor tincidunt, at mattis neque luctus.</p>
-      </div>
-      <div className="social-icons">
-        <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-        <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
       <ul className="services-list">
         <li><a href="/">Home</a></li>
