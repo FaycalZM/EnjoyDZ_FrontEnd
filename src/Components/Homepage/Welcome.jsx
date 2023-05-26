@@ -1,9 +1,9 @@
-import Beauty from "./Beauty";
-import Monuments from "./Monuments";
-import Navbar from "./Navbar";
-import SearchBar from "./Searchbar";
-import PageTail from "./Tail";
-import Wilaya from "./Wilaya";
+import Beauty from "./Beauty.jsx";
+import Monuments from "./Monuments.jsx";
+import Navbar from "./Navbar.jsx";
+import SearchBar from "./Searchbar.jsx";
+import PageTail from "./Tail.jsx";
+import Wilaya from "./Wilaya.jsx";
 
 
 
@@ -13,7 +13,7 @@ function App() {
       <Navbar></Navbar>
       <h1>Explore the beauty of Algeria</h1>
       <SearchBar></SearchBar>
-      <button>Let's Go</button>
+      <button>Lets Go</button>
       <Wilaya></Wilaya>
       <Monuments></Monuments>
       <Beauty></Beauty>
