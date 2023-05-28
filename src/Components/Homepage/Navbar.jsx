@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,8 +13,8 @@ function Navbar() {
         <li><a href="/contact">contact us</a></li>
       </ul>
       <div >
-        <button >connect</button>
-        <button >login</button>
+        <Link to = '/connect'><button>Connect</button></Link>
+        <Link to = '/signup'><button >Sign up</button></Link>
       </div>
     </nav>
   );
