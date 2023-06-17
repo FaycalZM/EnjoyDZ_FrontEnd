@@ -1,12 +1,15 @@
-import Welcome from './Components/Homepage/Welcome'
+// import Welcome from './Components/Homepage/Welcome'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import LoginPage from './Components/Authentication/LoginPage'
+import Login from './Components/Authentication/Login'
+import Signup from './Components/Authentication/Signup'
+import Welcome from './Components/Homepage/Welcome'
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Welcome/>}></Route>
-      <Route path='/connect' element={<LoginPage/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
+      <Route path='/signup' element={<Signup/>}></Route>
     </Routes>
   )
 }

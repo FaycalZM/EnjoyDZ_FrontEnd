@@ -1,0 +1,135 @@
+.login{
+}
+
+.login .login-left h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #F27C10;
+    margin-left: 10%;
+    margin-top: 170px;
+}
+
+.login .logo{
+    margin-left: 5%;
+    position: absolute;
+}
+
+.login input{
+    background-color: #EDF5F3;
+    border-radius: 15px;
+    width: 40%;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.login .form{
+    margin-top: 75px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login a{
+    color: #F27C10;
+    text-decoration: underline;
+}
+
+ .login .login-left button{
+    background-color: #F27C10;
+    color: white;
+    font-weight: 500;
+    padding: 15px 0px;
+    border-radius: 12px;
+    margin-top: 50px;    
+    width: 15%;
+    margin-left: 25%;
+}
+
+ .login .login-left{
+    width: 65%;
+    padding-left: 5%;
+}
+
+.login h3{
+    color: rgba(65, 65, 65, .5);
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+ .login .logo-ctn{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+ .login .logo-ctn img{
+    width: 40px;
+}
+
+.login{
+    display: flex;
+}
+
+ .login .login-right{
+    background-image: url('../ressources/login/bg.png');
+    width: 35%;
+    height: 100vh;
+}
+
+ .login .login-right h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+ .login .login-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 300px 0px;
+    align-items: center;
+}
+
+ .login .login-right h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .85);
+    width: 70%;
+    margin-left: 20%;
+}
+
+ .login .login-right button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 500;
+    padding: 15px 0px;
+    border-radius: 12px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+ .login .login-left h4{
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    color: #696969;
+}
+
+ .login .form div{
+    display: flex;
+    align-items: center;
+}
+
+ .login .form label{
+    margin-right: -24px;
+    margin-bottom: 27px;
+    z-index: 5;
+    color: #F27C10;
+}
+

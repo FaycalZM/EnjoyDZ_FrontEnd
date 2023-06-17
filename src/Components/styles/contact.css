@@ -1,0 +1,34 @@
+.contact{
+    position: absolute;
+    top: 375%;
+    width: 100%;
+}
+
+.contact img{
+    width: 30%;
+    position: absolute;
+    left: 17%;
+}
+
+.form button{
+    background-color:#F27C10;
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+}
+
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: absolute;
+    left: 54%;
+    margin-top: 100px;
+}
+
+.form input{
+    margin-bottom: 30px;
+}
+
+

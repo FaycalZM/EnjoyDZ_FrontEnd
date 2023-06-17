@@ -1,0 +1,20 @@
+.welcome1{
+    height: 100vh;
+    background-image: url(../ressources/bg1.png);
+    padding-top: 1.5%;
+}
+
+.explore{
+    font-size: 75px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10%;
+    margin-left: 6.5%;
+}
+
+.letsgo{
+    position: absolute;
+    right: 14%;
+    bottom: 23%;
+    width: 160px;
+}

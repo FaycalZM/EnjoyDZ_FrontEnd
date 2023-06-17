@@ -5738,6 +5738,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-google-login: ^5.2.2
+    react-icons: ^4.9.0
     react-router-dom: ^6.11.2
     react-scripts: ^5.0.1
     tailwindcss: ^3.3.2
@@ -10959,6 +10960,15 @@ __metadata:
     react: ^16 || ^17
     react-dom: ^16 || ^17
   checksum: 29199c7035c3c1070a82241dc4063628d693f35a1736d292e3db736e52da825e8a53f9287b0b12b08a50d676973ce1349a4d8243cd849ca25fed6a4284378880
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "react-icons@npm:4.9.0"
+  peerDependencies:
+    react: "*"
+  checksum: 69d1000d02349cf4baa78a0882aff09723d348d910256ea7489dea777abf10f158b27c1b5d3b1d2ec030e21320eae0afcc13f9c9d11afb85a8809c59a23a923c
   languageName: node
   linkType: hard
 

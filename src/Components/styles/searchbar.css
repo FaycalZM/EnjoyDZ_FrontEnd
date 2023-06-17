@@ -1,0 +1,27 @@
+.search-bar{
+    background-color: white;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.search-bar button{
+    background-color:#F27C10;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.search-bar select{
+    color:#F27C10 ;
+    font-weight: bold;
+}
+
+.search-bar input{
+    color: black;
+    padding-left: 7px;
+}

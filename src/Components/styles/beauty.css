@@ -1,0 +1,40 @@
+.beauty{
+    width: 100vw;
+    position: absolute;
+    top: 310%;
+}
+
+.images .image{
+    display: inline-block;
+    margin-right: .5%;
+    width: 23%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.beauty .images{
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 140px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+
+}
+
+.images::-webkit-scrollbar {
+  width: 0.5rem; /* Adjust the width as needed */
+}
+
+.images::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.images::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.images::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
